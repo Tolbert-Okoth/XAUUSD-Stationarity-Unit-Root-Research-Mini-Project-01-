@@ -1,0 +1,11 @@
+# Core dependencies for XAUUSD Mean Reversion Research Lab
+# Environment verified on Python 3.11.0rc2 (64-bit Windows)
+MetaTrader5==5.0.5735
+pandas==2.3.3
+pyarrow==24.0.0
+numpy==2.2.6
+scipy==1.14.1
+statsmodels==0.14.6
+arch==8.0.0
+matplotlib==3.10.9
+pytest==9.1.1

@@ -1,0 +1,31 @@
+# Environment & Virtual Envs
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Data Files (Preserve raw and processed datasets locally; do not commit large binaries)
+data/raw/*.parquet
+data/raw/*.csv
+data/processed/*.parquet
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Sensitive & Local Configuration
+.env
+*.secret
+*.key
+*.pem
+credentials.toml
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,4 @@
+series_name,observation_count,mean,std_dev,median,iqr,min,max,skewness,excess_kurtosis,jarque_bera_stat,jarque_bera_pvalue,is_gaussian
+Raw Bid Close ($P_t$),198277,3370.93271206,928.57913542,3316.47,1676.73,1985.61,5588.42,0.2523,-1.24,14806.98,0.0,False
+Log Bid Close ($y_t = \ln P_t$),198277,8.08431384,0.279561,8.106656,0.509746,7.593681,8.628452,-0.0332,-1.3064,14135.3,0.0,False
+Log Returns ($r_t = \Delta \ln P_t$),198276,3.55e-06,0.00077972,8e-06,0.000601,-0.021164,0.028446,-0.5189,51.6333,22034012.05,0.0,False

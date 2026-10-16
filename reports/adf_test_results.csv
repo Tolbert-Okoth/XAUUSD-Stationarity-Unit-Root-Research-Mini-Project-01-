@@ -1,0 +1,6 @@
+series_name,regression_specification,sample_size_T,max_lag_bound,selected_lag_k,effective_observations_nobs,adf_test_statistic,p_value,critical_value_1pct,critical_value_5pct,critical_value_10pct,ic_best_value,reject_h0_5pct,software_versions
+Log Bid Close (Primary),ct,198277,80,77,198199,-1.329473,0.880445,-3.9588,-3.4105,-3.1271,-2274504.86,False,"{'statsmodels': '0.14.6', 'numpy': '2.2.6', 'scipy': '1.14.1'}"
+Log Bid Close (Sensitivity),c,198277,80,77,198199,-1.327547,0.616477,-3.4304,-2.8616,-2.5668,-2274505.91,False,"{'statsmodels': '0.14.6', 'numpy': '2.2.6', 'scipy': '1.14.1'}"
+Raw Bid Close (Sensitivity),ct,198277,80,77,198199,-1.699714,0.750997,-3.9588,-3.4105,-3.1271,1024160.45,False,"{'statsmodels': '0.14.6', 'numpy': '2.2.6', 'scipy': '1.14.1'}"
+Raw Bid Close (Sensitivity),c,198277,80,77,198199,-1.162913,0.689343,-3.4304,-2.8616,-2.5668,1024160.34,False,"{'statsmodels': '0.14.6', 'numpy': '2.2.6', 'scipy': '1.14.1'}"
+First Differences (Log Returns Diagnostic),c,198276,80,80,198195,-49.699861,0.0,-3.4304,-2.8616,-2.5668,-2274496.05,True,"{'statsmodels': '0.14.6', 'numpy': '2.2.6', 'scipy': '1.14.1'}"

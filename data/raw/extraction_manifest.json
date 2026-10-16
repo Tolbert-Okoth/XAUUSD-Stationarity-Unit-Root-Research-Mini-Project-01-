@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "symbol": "XAUUSD",
+    "broker_company": "EGM Securities Limited",
+    "broker_server": "EGMSecurities-Demo",
+    "terminal_build": 6230,
+    "mt5_package_version": "5.0.5735",
+    "python_executable": "C:\\Users\\Tolbert Okoth\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "python_version": "3.11.0rc2 (main, Sep 11 2022, 20:22:52) [MSC v.1933 64 bit (AMD64)]",
+    "extraction_timestamp_utc": "2026-10-16T06:42:10.925587+00:00",
+    "requested_start_utc": "2024-01-02T00:00:00+00:00",
+    "requested_end_utc": "2026-10-16T23:59:59+00:00"
+  },
+  "snapshots": {
+    "D1": {
+      "timeframe": "D1",
+      "file_path": "data\\raw\\XAUUSD_D1.parquet",
+      "file_sha256": "448a701cb761f9428b3b6a67a6ffbec881c4e0c77f376d12e59159825e353186",
+      "file_size_bytes": 33662,
+      "total_bars": 722,
+      "first_bar_epoch": 1704153600,
+      "last_bar_epoch": 1792108800,
+      "first_bar_iso": "2024-01-02 00:00:00 UTC",
+      "last_bar_iso": "2026-10-16 00:00:00 UTC"
+    },
+    "H4": {
+      "timeframe": "H4",
+      "file_path": "data\\raw\\XAUUSD_H4.parquet",
+      "file_sha256": "eb879f76859bb6995080c3714379496002639befd7609221e62910a1da00b4ba",
+      "file_size_bytes": 171872,
+      "total_bars": 4327,
+      "first_bar_epoch": 1704153600,
+      "last_bar_epoch": 1792137600,
+      "first_bar_iso": "2024-01-02 00:00:00 UTC",
+      "last_bar_iso": "2026-10-16 08:00:00 UTC"
+    },
+    "H1": {
+      "timeframe": "H1",
+      "file_path": "data\\raw\\XAUUSD_H1.parquet",
+      "file_sha256": "9516e6b8764e4cb2016c00df6a64b8d71a4fe8ee4d5af1b00dd835d302575272",
+      "file_size_bytes": 615717,
+      "total_bars": 16537,
+      "first_bar_epoch": 1704157200,
+      "last_bar_epoch": 1792141200,
+      "first_bar_iso": "2024-01-02 01:00:00 UTC",
+      "last_bar_iso": "2026-10-16 09:00:00 UTC"
+    },
+    "M30": {
+      "timeframe": "M30",
+      "file_path": "data\\raw\\XAUUSD_M30.parquet",
+      "file_sha256": "b1b1728b36570868c2f904579113d8c2b6f245ca9f8b53a1f2beb2347a5ff288",
+      "file_size_bytes": 1166900,
+      "total_bars": 33054,
+      "first_bar_epoch": 1704157200,
+      "last_bar_epoch": 1792143000,
+      "first_bar_iso": "2024-01-02 01:00:00 UTC",
+      "last_bar_iso": "2026-10-16 09:30:00 UTC"
+    },
+    "M15": {
+      "timeframe": "M15",
+      "file_path": "data\\raw\\XAUUSD_M15.parquet",
+      "file_sha256": "60ea892d0e1e6857029625837b08c773f0d91b55e054ea1c11bfedb49eb98abc",
+      "file_size_bytes": 2138301,
+      "total_bars": 66100,
+      "first_bar_epoch": 1704157200,
+      "last_bar_epoch": 1792143000,
+      "first_bar_iso": "2024-01-02 01:00:00 UTC",
+      "last_bar_iso": "2026-10-16 09:30:00 UTC"
+    },
+    "M5": {
+      "timeframe": "M5",
+      "file_path": "data\\raw\\XAUUSD_M5.parquet",
+      "file_sha256": "6ecd90e64f790c4cf2fb0ef202b9f0761a51aeefcf3f12fdbfb7feb569beee6d",
+      "file_size_bytes": 5420621,
+      "total_bars": 198278,
+      "first_bar_epoch": 1704157200,
+      "last_bar_epoch": 1792143600,
+      "first_bar_iso": "2024-01-02 01:00:00 UTC",
+      "last_bar_iso": "2026-10-16 09:40:00 UTC"
+    },
+    "M1": {
+      "timeframe": "M1",
+      "file_path": "data\\raw\\XAUUSD_M1.parquet",
+      "file_sha256": "6acaae140d09f14248b794831935b8b0a84abe342ce535572e075f9784d72910",
+      "file_size_bytes": 19914644,
+      "total_bars": 990806,
+      "first_bar_epoch": 1704157200,
+      "last_bar_epoch": 1792143720,
+      "first_bar_iso": "2024-01-02 01:00:00 UTC",
+      "last_bar_iso": "2026-10-16 09:42:00 UTC"
+    }
+  }
+}

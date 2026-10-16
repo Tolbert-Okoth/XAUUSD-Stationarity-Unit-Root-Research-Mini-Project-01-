@@ -1,0 +1,102 @@
+[
+  {
+    "series_name": "Log Bid Close (Primary)",
+    "regression_specification": "ct",
+    "sample_size_T": 198277,
+    "max_lag_bound": 80,
+    "selected_lag_k": 77,
+    "effective_observations_nobs": 198199,
+    "adf_test_statistic": -1.329473,
+    "p_value": 0.880445,
+    "critical_value_1pct": -3.9588,
+    "critical_value_5pct": -3.4105,
+    "critical_value_10pct": -3.1271,
+    "ic_best_value": -2274504.86,
+    "reject_h0_5pct": false,
+    "software_versions": {
+      "statsmodels": "0.14.6",
+      "numpy": "2.2.6",
+      "scipy": "1.14.1"
+    }
+  },
+  {
+    "series_name": "Log Bid Close (Sensitivity)",
+    "regression_specification": "c",
+    "sample_size_T": 198277,
+    "max_lag_bound": 80,
+    "selected_lag_k": 77,
+    "effective_observations_nobs": 198199,
+    "adf_test_statistic": -1.327547,
+    "p_value": 0.616477,
+    "critical_value_1pct": -3.4304,
+    "critical_value_5pct": -2.8616,
+    "critical_value_10pct": -2.5668,
+    "ic_best_value": -2274505.91,
+    "reject_h0_5pct": false,
+    "software_versions": {
+      "statsmodels": "0.14.6",
+      "numpy": "2.2.6",
+      "scipy": "1.14.1"
+    }
+  },
+  {
+    "series_name": "Raw Bid Close (Sensitivity)",
+    "regression_specification": "ct",
+    "sample_size_T": 198277,
+    "max_lag_bound": 80,
+    "selected_lag_k": 77,
+    "effective_observations_nobs": 198199,
+    "adf_test_statistic": -1.699714,
+    "p_value": 0.750997,
+    "critical_value_1pct": -3.9588,
+    "critical_value_5pct": -3.4105,
+    "critical_value_10pct": -3.1271,
+    "ic_best_value": 1024160.45,
+    "reject_h0_5pct": false,
+    "software_versions": {
+      "statsmodels": "0.14.6",
+      "numpy": "2.2.6",
+      "scipy": "1.14.1"
+    }
+  },
+  {
+    "series_name": "Raw Bid Close (Sensitivity)",
+    "regression_specification": "c",
+    "sample_size_T": 198277,
+    "max_lag_bound": 80,
+    "selected_lag_k": 77,
+    "effective_observations_nobs": 198199,
+    "adf_test_statistic": -1.162913,
+    "p_value": 0.689343,
+    "critical_value_1pct": -3.4304,
+    "critical_value_5pct": -2.8616,
+    "critical_value_10pct": -2.5668,
+    "ic_best_value": 1024160.34,
+    "reject_h0_5pct": false,
+    "software_versions": {
+      "statsmodels": "0.14.6",
+      "numpy": "2.2.6",
+      "scipy": "1.14.1"
+    }
+  },
+  {
+    "series_name": "First Differences (Log Returns Diagnostic)",
+    "regression_specification": "c",
+    "sample_size_T": 198276,
+    "max_lag_bound": 80,
+    "selected_lag_k": 80,
+    "effective_observations_nobs": 198195,
+    "adf_test_statistic": -49.699861,
+    "p_value": 0.0,
+    "critical_value_1pct": -3.4304,
+    "critical_value_5pct": -2.8616,
+    "critical_value_10pct": -2.5668,
+    "ic_best_value": -2274496.05,
+    "reject_h0_5pct": true,
+    "software_versions": {
+      "statsmodels": "0.14.6",
+      "numpy": "2.2.6",
+      "scipy": "1.14.1"
+    }
+  }
+]

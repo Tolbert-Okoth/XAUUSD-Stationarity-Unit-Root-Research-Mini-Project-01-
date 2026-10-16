@@ -1,0 +1,41 @@
+[project]
+name = "XAUUSD_MeanReversion_Lab"
+version = "0.1.0"
+description = "Quantitative research lab investigating stationarity and mean-reversion properties of XAUUSD prices (2024-2026)"
+
+[environment]
+python_version = "3.11.0rc2"
+mt5_package_version = "5.0.5735"
+
+[data]
+symbol = "XAUUSD"
+requested_start = "2024-01-02 00:00:00"
+requested_end = "2026-10-16 23:59:59"
+timeframes = ["D1", "H4", "H1", "M30", "M15", "M5", "M1"]
+primary_timeframe = "M5"
+file_format = "parquet"
+raw_data_dir = "data/raw"
+processed_data_dir = "data/processed"
+reports_dir = "reports"
+
+[audit_thresholds]
+large_price_change_pct = 3.0
+outlier_zscore_sigma = 5.0
+
+[protocol]
+research_question = "RQ-01: Does the selected XAUUSD price-level series over 2024-2026 provide statistical evidence consistent with a unit-root process or a stationary alternative?"
+null_hypothesis = "H0: The tested XAUUSD price-level series has a unit root under the specified model."
+alternative_hypothesis = "H1: The tested XAUUSD price-level series is stationary under the specified model."
+primary_timeframe = "M5"
+primary_price_series = "log_bid_close"
+sensitivity_price_series = "raw_bid_close"
+secondary_diagnostic_series = "first_difference_log_returns"
+significance_level = 0.05
+primary_adf_specification = "ct"
+sensitivity_adf_specification = "c"
+lag_selection_criterion = "AIC"
+max_lag_rule = "schwert_12"
+max_lag_cap = 80
+exclude_incomplete_final_bar = true
+expected_raw_rows = 198278
+expected_primary_sample_rows = 198277
